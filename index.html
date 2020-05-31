@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MathJax example</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="primary-nav-mobile">
+                <h1>
+                    <a href="#"><span>Alpha</span><span>study</span><span>point</span></a>
+                </h1>
+                <div id="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </div>
+            <div>
+                <div id="phone" class="hide">
+                    <i class="fa fa-phone" style="color:green"></i><span class="hide">+2348165335988</span>
+                </div>
+                <div class="hide">
+                    <div>
+
+                        <ul>
+                            <li><a href="#">Sign in</a></li>
+                            <li><a href="#">Downloads</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <ul id="main-nav" class="nav-close">
+                    <li><a href="#">About</a></li>
+                    <li><a href="AP_example3.2.html">Tutorials</a></li>
+                    <li><a href="#">Accessments</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+
+        </nav>
+        <section id="landing-banner" class="center-text hide">
+            <div id="landing-image" class="hide">
+                <img src="images/matt-ragland-02z1I7gv4ao-unsplash.jpg" alt="">
+            </div>
+            <h1 id="landing-content" class="center-text">
+                This is what i meant
+            </h1>
+
+
+
+        </section>
+
+    </header>
+
+    <main>
+        <div class="fixed-right">
+            <i class="fa fa-phone" style="color:green"></i><span>contact</span>
+        </div>
+
+
+        <nav id="side-nav">
+
+        </nav>
+        <section id="content">
+            <h1 class="center-text">Sequences and Series</h1>
+            <h2 class="center-text">Arithmetic progression(AP) and series</h2>
+            <h3>Examples on AP</h3>
+            <p>Each section is accompanied with a video for better understanding</p>
+            <iframe src="https://www.youtube.com/embed/SmRRPrFRAes" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                class="center-item"></iframe>
+
+            <!-- <p>
+                A sequence is can be formally defined as a function in which the domain is the set of natural numbers,
+                i.e the domain is the infinite set \(\Set{1,2,3,4,5,6,...}\).
+            </p> -->
+            <div>
+                <div>
+                    <h4>Example 3.1</h4>
+                    <p class="example">
+                        Given the Sequence \(7, 5, 3,...\), determine the<br>
+                        i. Sum of the 10th and 20th terms.<br>
+                        ii. Sum of the first nine terms of the sequence.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Solution 3.1
+                    </h4>
+                    <p class="solution">
+                    <p>
+                        Taking a close look at the sequence, you will notice that it's an Arithmetic progression. Reason
+                        being that there is a common difference between consecutive terms as illustrated below.
+                    </p>
+                    <p>
+                        The first term \(T_1=7\), the second term is \(T_2=5\) and the third term is \(T_3=3\), hence
+                        the common difference is \[d=T_2-T_1=T_3-T_2\].
+                        Now \[T_2-T_1=5-7=-2\] and
+                        \[T_3-T_2=3-5=-2\].
+                        The difference are same, hence the common difference is \[d=-2\].
+                        Now that we have the first term \(a=7\) and the common difference \(d=-2\), we can proceed to
+                        answered the questions given to us.<br>
+                        <span class="sub-solution">i.</span>
+                        The formula for the nth term of an AP is \(\;\;T_n=a+(n-1)d,\)
+                        \[\Rightarrow T_{10}=7+(10-1)(-2)=7-18\]
+                        \[T_{10}=-11\]
+
+                        \( and\;T_{20}=7+(20-1)(-2)=7-38\)<br>
+                        \[T_{20}=-31\].
+                        The sum of the 10t and 20th terms is \[sum=-11+(-31)=-42\]
+
+                        <span class="sub-solution">ii.</span>
+                        For the sum of the first nine terms, we have to make use of the formula,
+                        \[S_n=\frac{n}{2}(2a+(n-1)d),\] hence \(S_9=\frac{9}{2}(2(7)+(9-1)(-2))\)<br>
+                        \(S_9=\frac{9}{2}(14-16)=-9\)
+                    </p>
+
+                    </p>
+                </div>
+            </div>
+            <!-- <p>
+                Sequences are defined in such a way that they have a particular order or general term, which is actually
+                the function which generates the terms of the sequence.
+            </p> -->
+            <!-- <p>
+                Mathematically, a sequence is a function \(f(x)\) which maps from the set of natural numbers \(N\) to
+                the set of real numbers \(R\) or complex numbers \(C\)
+            </p>
+            <p>
+                \[\int{x+3}\]
+            </p> -->
+            <ul id="navigation">
+                <li>
+                    <a href="#">
+                        Previous
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="AP_example3.2.html">
+                        Next
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </section>
+        <aside id="others"></aside>
+
+    </main>
+    <footer>
+        <section id="secondary-nav">
+
+        </section>
+        <section id="address">
+
+        </section>
+
+        <section id="Social media">
+
+        </section>
+        <section id="terms-and-conditions">
+            <p>
+                &copy; <span class="year"></span> Alphastudypoint. All Rights Reserved
+            </p>
+
+        </section>
+    </footer>
+    <script src="js/onload.js"></script>
+    <script src="js/nav_control.js"></script>
+</body>
+
+</html>
